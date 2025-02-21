@@ -1,17 +1,13 @@
-# E-Commerce Micro Frontend
+# E-Commerce Micro Frontend Task
 
 ## Overview
 This project follows the micro frontend architecture using Next.js and React. 
-It implements a host application and two remote applications (products and basket).
+
+It consists of a host application, which integrates two separate remote applications — one for managing products and the other for handling the shopping basket.
 
 ## Installation
 ```sh
-npm install
+npm install -f
 npm run dev
 ```
 
-## Features
-- Uses RTK Query for API calls.
-- Implements Webpack Module Federation for micro frontends.
-- Fully responsive UI with Ant Design.
-- Adheres to SOLID and 12-Factor principles.
